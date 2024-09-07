@@ -1,0 +1,36 @@
+var member =['sangjun', 'chris']
+member[0], member[1]
+
+
+----push
+var list =['a', 'b', 'c', 'd'];
+list.push('e');
+list === ['a', 'b', 'c', 'd', 'e'];
+
+----unshift
+var list = [1,2,3];
+list.unshift(4);
+list === [4,1,2,3];
+
+
+---slice
+var li = ['a', 'b', 'c', 'd', 'e'];
+li.splice(2, 0, 'B');
+li === ['a', 'b', 'B', 'c', 'd', 'e']
+li.splice(3, 2, 'C');
+li === ['a', 'b', 'B', 'C', 'e']
+
+
+----shift, pop
+var list = [1,2,3,4];
+list.shift === 1; //첫번째 값을 빼서 return
+list === [2,3,4];
+list.pop === 4;
+list === [2,3];
+
+
+----sort
+li = ['d','c','a','b'];
+li.sort === ['a','b','c','d'];
+li === ['a','b','c','d'];
+li.reverse === ['d','c','b','a'];

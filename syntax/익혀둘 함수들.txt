@@ -1,0 +1,4 @@
+var a = prompt("나이를 입력하세요") //문자열 입력
+Number(a) // 문자열을 숫자로 변환
+document.write(1); 
+// html에서는 화면 영역을 document라고 부르는데 여기에 출력하는 함수이다.
