@@ -1,0 +1,23 @@
+--------객체{중괄호}
+
+인덱스(key)로 숫자뿐 아니라 문자를 쓸 수 있다
+
+var person = {
+    name: 'Alice',
+    age: 30,
+    occupation: 'Engineer'
+};
+
+var person = {}; // var grade = new Object;
+person['name'] = 'Alice';
+person['age'] = 30;
+person['occupation'] = 'Engneer';
+
+person['name'] === 'Alice';     // person['na'+'me']; 가능
+person.name === 'Alice';
+
+
+-------------객체 + 반복문 //배열과도 사용 가능
+for(var key in person){
+    document.write("key : " + key + "value : " + person[key]);
+}

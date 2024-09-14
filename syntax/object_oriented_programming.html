@@ -1,0 +1,14 @@
+var grades = {
+    'list' : {'egoing':10,'k8805':8,'sang':80}
+    'func' : function(){
+        for(var name in this.list){   ///this는 함수가 속한 객체(grades)를 가리키는 약속된 변수
+            console.log(name, this.list['name']);
+        }    
+    }
+}
+alert(grades['list']['egoing']);
+grades['func']();
+
+
+객체지향 프로그래밍이란?
+연관이 되어있는 object, list, function 등을 하나의 카테고리(객체)로 묶어주는것

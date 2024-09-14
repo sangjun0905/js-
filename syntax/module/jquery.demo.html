@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type ="text/javascript" src="jquery.js"></script>
+</head>
+<body>
+    <ul id="list">
+        <li>empty</li>
+        <li>empty</li>
+        <li>empty</li>
+        <li>empty</li>
+    </ul>
+    <input type="button" value="excute" id="excute_btn"/>
+    <script type="text/javascript">
+        //  $('#list'); //id=list 인 태그를 가리킴
+        //  $('#list li').text('coding everybody'); //id=list인 태그 중 하위태그가 li인 태그 선택
+        $('#excute_btn').click(function(){
+            $('#list li').text('coding everybody');
+        });
+    </script>
+</body>
+</html>
+
