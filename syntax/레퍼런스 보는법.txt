@@ -1,0 +1,5 @@
+reference 명령어 사전
+
+two kinds of js reference
+1. js api(date, math etc...)
+2. host api(browser, nodejs etc...)

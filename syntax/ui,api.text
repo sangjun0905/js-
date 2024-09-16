@@ -1,0 +1,8 @@
+ --- User Interface
+사용자가 대면하는 것
+
+
+ --- Application Programming Interface
+만들어진 프로그램을 내 코딩으로 이용하기 위한 방법
+운영체계에게서 api를 제공받아 브라우저를 만들고
+browser가 api를 제공하여 우리가 코딩함
